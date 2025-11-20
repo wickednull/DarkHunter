@@ -1,6 +1,8 @@
 <a name="top"></a>
 <p align="center">
-  <a href="https://github.com/wickednull/DarkHunter">
+  <a 
+  ![image](https://github.com/user-attachments/assets/6e1ea600-084e-4ff7-90d6-ee9b242ab37d)
+href="https://github.com/wickednull/DarkHunter">
   </a>
 
   <h3 align="center">DarkHunter</h3>
