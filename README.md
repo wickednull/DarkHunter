@@ -1,7 +1,8 @@
+![image](https://github.com/user-attachments/assets/8601f5ef-726b-4c71-9231-e75af6837171)
+
 <a name="top"></a>
 <p align="center">
   <a 
-  ![image](https://github.com/user-attachments/assets/6e1ea600-084e-4ff7-90d6-ee9b242ab37d)
 href="https://github.com/wickednull/DarkHunter">
   </a>
 
