@@ -131,10 +131,6 @@ This tool is for educational purposes only. You are responsible for your own act
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
-
-wickednull - [@wickednull](https://twitter.com/wickednull) - wickednull@gmail.com
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
