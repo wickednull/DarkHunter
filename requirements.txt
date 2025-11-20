@@ -1,0 +1,4 @@
+aiohttp
+PyYAML
+customtkinter
+colorama

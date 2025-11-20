@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset='utf-8'><title>DarkHunter Report</title><style>body{font-family:system-ui; background:#0b0f14; color:#d9e1ee; padding:20px} table{width:100%; border-collapse:collapse} th,td{border:1px solid #233; padding:8px}</style></head><body><h1>DarkHunter Report</h1><table><thead><tr><th>Severity</th><th>Title</th><th>Description</th><th>Evidence</th></tr></thead><tbody><tr><td>Medium</td><td>Missing Security Headers</td><td>Missing: Strict-Transport-Security, Content-Security-Policy</td><td><pre>{
+  &quot;url&quot;: &quot;https://faygoluvers.net&quot;,
+  &quot;status&quot;: 403,
+  &quot;missing&quot;: [
+    &quot;Strict-Transport-Security&quot;,
+    &quot;Content-Security-Policy&quot;
+  ]
+}</pre></td></tr><tr><td>Medium</td><td>CSP Missing</td><td>No Content-Security-Policy header present</td><td><pre>{}</pre></td></tr><tr><td>Medium</td><td>Missing Security Headers</td><td>Missing: Strict-Transport-Security, Content-Security-Policy</td><td><pre>{
+  &quot;url&quot;: &quot;https://faygoluvers.net&quot;,
+  &quot;status&quot;: 403,
+  &quot;missing&quot;: [
+    &quot;Strict-Transport-Security&quot;,
+    &quot;Content-Security-Policy&quot;
+  ]
+}</pre></td></tr><tr><td>Info</td><td>Modern Header Hardening</td><td>Missing modern security headers</td><td><pre>{
+  &quot;missing&quot;: [
+    &quot;X-DNS-Prefetch-Control&quot;
+  ]
+}</pre></td></tr><tr><td>Critical</td><td>Cloud Metadata SSRF (reflected)</td><td>Response suggests metadata content was fetched</td><td><pre>{
+  &quot;url&quot;: &quot;https://faygoluvers.net?url=http://169.254.169.254/latest/meta-data/iam/security-credentials/&quot;,
+  &quot;snippet&quot;: &quot;&lt;!DOCTYPE html&gt;&lt;html lang=\&quot;en-US\&quot;&gt;&lt;head&gt;&lt;title&gt;Just a moment...&lt;/title&gt;&lt;meta http-equiv=\&quot;Content-Type\&quot; content=\&quot;text/html; charset=UTF-8\&quot;&gt;&lt;meta http-equiv=\&quot;X-UA-Compatible\&quot; content=\&quot;IE=Edge\&quot;&gt;&lt;meta nam&quot;
+}</pre></td></tr><tr><td>Info</td><td>Tech Fingerprint</td><td>Basic server/framework indicators</td><td><pre>{
+  &quot;server&quot;: &quot;cloudflare&quot;,
+  &quot;x_powered_by&quot;: &quot;&quot;,
+  &quot;via&quot;: &quot;&quot;,
+  &quot;title&quot;: &quot;Just a moment...&quot;
+}</pre></td></tr><tr><td>High</td><td>Server-Side Template Injection (SSTI) indicator</td><td>Expression evaluated for parameter &#x27;q&#x27;</td><td><pre>{
+  &quot;url&quot;: &quot;https://faygoluvers.net?q=%24%7B%7B7%2A7%7D%7D&quot;,
+  &quot;payload&quot;: &quot;${{7*7}}&quot;,
+  &quot;expect&quot;: &quot;49&quot;
+}</pre></td></tr><tr><td>Info</td><td>HSTS Missing</td><td>Strict-Transport-Security header not set</td><td><pre>{}</pre></td></tr><tr><td>Info</td><td>TLS Certificate</td><td>Certificate expiry (notAfter)</td><td><pre>{
+  &quot;notAfter&quot;: &quot;Dec 11 11:29:02 2025 GMT&quot;
+}</pre></td></tr></tbody></table></body></html>

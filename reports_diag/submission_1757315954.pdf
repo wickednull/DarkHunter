@@ -1,0 +1,37 @@
+%PDF-1.4
+1 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>endobj
+2 0 obj<< /Type /Page /Parent 3 0 R /Resources<< /Font<< /F1 1 0 R>> >> /MediaBox[0 0 595 842] /Contents 4 0 R>>endobj
+3 0 obj<< /Type /Pages /Kids[2 0 R] /Count 1>>endobj
+4 0 obj<< /Length 637 >>stream
+BT /F1 12 Tf 50 770 Td (Bug Bounty Submission) Tj ET
+BT /F1 12 Tf 50 756 Td (Program: DiagProg) Tj ET
+BT /F1 12 Tf 50 742 Td (Severity: Info) Tj ET
+BT /F1 12 Tf 50 728 Td (Title: Diag) Tj ET
+BT /F1 12 Tf 50 714 Td (Description: Self test) Tj ET
+BT /F1 12 Tf 50 700 Td (Evidence: {"k": "v"}) Tj ET
+BT /F1 12 Tf 50 686 Td () Tj ET
+BT /F1 12 Tf 50 672 Td (Steps to Reproduce:) Tj ET
+BT /F1 12 Tf 50 658 Td (1\) ...) Tj ET
+BT /F1 12 Tf 50 644 Td (2\) ...) Tj ET
+BT /F1 12 Tf 50 630 Td (3\) ...) Tj ET
+BT /F1 12 Tf 50 616 Td () Tj ET
+BT /F1 12 Tf 50 602 Td (Impact:) Tj ET
+BT /F1 12 Tf 50 588 Td () Tj ET
+BT /F1 12 Tf 50 574 Td (Scope:) Tj ET
+endstream endobj
+5 0 obj<< /Type /Catalog /Pages 3 0 R>>endobj
+xref
+0 6
+0000000000 65535 f 
+0000000000 00000 n 
+0000000009 00000 n 
+0000000077 00000 n 
+0000000196 00000 n 
+0000000249 00000 n 
+0000000280 00000 n 
+0000000917 00000 n 
+0000000935 00000 n 
+trailer<< /Size 6 /Root 5 0 R >>
+startxref
+981
+%%EOF
