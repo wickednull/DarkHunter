@@ -1,7 +1,6 @@
 <a name="top"></a>
 <p align="center">
   <a href="https://github.com/wickednull/DarkHunter">
-    <img src="https://i.imgur.com/J3d1L1M.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">DarkHunter</h3>
