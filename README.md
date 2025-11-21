@@ -1,7 +1,9 @@
+![image](https://github.com/user-attachments/assets/8601f5ef-726b-4c71-9231-e75af6837171)
+
 <a name="top"></a>
 <p align="center">
-  <a href="https://github.com/wickednull/DarkHunter">
-    <img src="https://i.imgur.com/J3d1L1M.png" alt="Logo" width="80" height="80">
+  <a 
+href="https://github.com/wickednull/DarkHunter">
   </a>
 
   <h3 align="center">DarkHunter</h3>
@@ -131,10 +133,6 @@ This tool is for educational purposes only. You are responsible for your own act
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-wickednull - [@wickednull](https://twitter.com/wickednull) - wickednull@gmail.com
 
 ## Show your support
 
